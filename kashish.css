@@ -1,6 +1,6 @@
 :root
 {
-    --primary-color: rgb(222, 139, 222); 
+    --primary-color: #e690c5; 
     --dark-gray: #9f8888;
     --off-white: #e2e8f0;
 }
@@ -72,7 +72,7 @@
 #section-2{
     text-align: center;
     margin-bottom: 20px;
-    background-color: rgb(222, 139, 222);
+    background-color: #e690c5;
 }
 
 .faqs{
