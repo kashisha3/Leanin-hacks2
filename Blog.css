@@ -137,9 +137,12 @@ h4 {
   }
   
   #survey-form {
+    align-items: center;
     position: relative;
+    width: 38cm;
+    height:15cm;
     margin: 30px;
-    padding: 10px;
+    padding: 100010px;
     padding-right: 10px;
     border-radius: 10px;
     background-color: #b383a1;
@@ -251,6 +254,7 @@ h4 {
     color: white;
     border-radius: 10px;
     display: none;
+    align-content: center;
   }
   
   .box-container:nth-child(1),
@@ -363,6 +367,7 @@ h4 {
     
     #survey-form {
       position: relative;
+      width: 35cm;
       margin: 30px;
       padding: 10px;
       padding-right: 10px;
@@ -447,4 +452,3 @@ h4 {
     button:focus-visible {
       background-color: rgba(38, 50, 56, 0.9);
     }
-    
