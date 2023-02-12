@@ -194,7 +194,7 @@ ul{
     margin-left: 3cm;
     margin-right: 3cm;
     text-align: auto;
-    background-image: url(https://media.istockphoto.com/id/926562846/vector/vector-hand-drawn-background-sketch-illustration-template-for-printing-advertising-poster.jpg?s=612x612&w=0&k=20&c=bwEXvHvjmy-LVlcieGBohrlZxiq0mrlghpdsODPNlqc=);
+    background-image: url(./images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
     background-size:contain;
     
 }
@@ -206,8 +206,9 @@ ul{
     margin-right: 3cm;
     text-align: auto;
     text-emphasis-color: black;
-    background-image: url(https://www.clipartmax.com/png/small/347-3473239_amendment-drawing-political-cartoon-votes-for-women-clipart.png);
+    background-image: url(./images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
     background-size:150% ;
+    
 }
 .container-8{
     border: 8px rgba(31, 33, 42, 0.959) solid;
@@ -216,9 +217,11 @@ ul{
     margin-left: 3cm;
     margin-right: 3cm;
     text-align: auto;
-    background-image: url(https://images.thequint.com/thequint%2F2016-02%2F4b11693e-b2fe-41d3-be35-0d3bc91a4dd9%2Fpachauri.jpg?rect=0%2C0%2C2000%2C1125&auto=format%2Ccompress&fmt=webp&width=720);
+    background-image: url(./images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
     background-size:contain ;
 }
+
+
 .heading-rights{    width:0ch;
 overflow:hidden;
 align-items: center;
@@ -228,7 +231,7 @@ text-align: center;
 white-space:nowrap;
 animation: text 20s steps(30) infinite alternate;
 border-right:3px solid black;
-
+color: black !important;
 }
 @keyframes text{
 0%{
