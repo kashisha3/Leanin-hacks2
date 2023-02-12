@@ -25,10 +25,10 @@ AOS.init({
      );
    }
    
-  
+  /*
 function callSOSEmail() {
     setTimeout(() => {
         alert("SOS Message Sent!")
     }, 1000);
   }
-  
+  */
