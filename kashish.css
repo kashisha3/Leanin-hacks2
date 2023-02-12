@@ -194,8 +194,8 @@ ul{
     margin-left: 3cm;
     margin-right: 3cm;
     text-align: auto;
-    background-image: url(./images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
-    background-size:contain;
+    background-image: url(./images/bg.jpeg);
+    background-size:150% ;
     
 }
 .container-7{
@@ -206,7 +206,7 @@ ul{
     margin-right: 3cm;
     text-align: auto;
     text-emphasis-color: black;
-    background-image: url(./images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
+    background-image: url(./images/bg.jpeg);
     background-size:150% ;
     
 }
@@ -217,8 +217,8 @@ ul{
     margin-left: 3cm;
     margin-right: 3cm;
     text-align: auto;
-    background-image: url(./images/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
-    background-size:contain ;
+    background-image: url(./images/bg.jpeg);
+    background-size:150% ;
 }
 
 
