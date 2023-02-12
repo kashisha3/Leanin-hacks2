@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./blog.css">
+    <link rel="stylesheet" href="./kashish.css">
+    <title>Blog</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <style>
+        body {
+          background-image: url('https://m.media-amazon.com/images/I/41tRMSNSQfL._AC_UF894,1000_QL80_.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid"
+          style="background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTQWQFjxbHCpC4VJfFo7-VsMfoouzfR-AB5Nt5GVHbzfKsjAKog); background-repeat:no-repeat;background-size: cover; height: 100px; margin-left: 10px; margin-right: 10px; border-bottom-left-radius: 1rem ;">
+          <a class="navbar-brand" href="#">
+            <img src="https://m.media-amazon.com/images/I/41tRMSNSQfL.AC_UF894,1000_QL80.jpg" alt="Bootstrap" width="25" height="84" style="width:12">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" style="margin-left: 0px; font-size: 20px;" aria-current="page" href="#">STREE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin-left: 70px; font-size: 20px;" href="./location.html"><u>Location</u></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin-left: 20px; font-size: 20px;" href="#section-2"><u>Complaint</u></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin-left: 20px; font-size: 20px;" href="./login.html"><u>Login/Signup</u></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin-left: 20px; font-size: 20px;" href="./Blogs.html"><u>Blogs</u></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin-left: 20px; font-size: 20px;" href="#section-4"><u>Rights</u></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin-left: 20px; font-size: 20px;" href="#section-5"><u>Government Schemes</u></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="margin-left: 20px; font-size: 20px;" href="#section-6"><u>Self Defence</u></a>
+              </li>
+              <div class="dropdown">
+                <button class="dropbtn" id="dropbtn" style="border-top-right-radius: 1rem;margin-left: 20px;
+                border-top-left-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem;">Helpline numbers</button>
+                <div class="dropdown-content">
+    
+                  <ul>
+                    <li><a href="tel:011-23379181"><b>Delhi: </b> 011-23379181</a></li>
+                    <li><a href="tel:0124-2335100"><b>Haryana: </b> 0124-2335100</a></li>
+                    <li><a href="tel:1091 / 112"><b>Punjab: </b> 1091 / 112</a></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="dropdown">
+                <button class="dropbtn" id="dropbtn" style="border-top-right-radius: 1rem;margin-left: 20px;
+                border-top-left-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem;">Contact numbers</button>
+                <div class="dropdown-content">
+    
+                  <ul>
+                    <li><b>Please login first!!</b></li>
+                  </ul>
+                </div>
+              </div>
+              <!--<li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>-->
+            </ul>
+            <!--<form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>-->
+          </div>
+        </div>
+      </nav>
+
+
+    <br>
+    <br>
+    <div class="heading" style="color: aliceblue;"><h1 style="text-align: center; font-family: Georgia, serif; padding-top: 8px; font-style: oblique;">Blog Section</h1></div>
+    <br>
+    <br>
+   
+    <div class="container" id="container">
+        <div class="box-container">
+          <div class="box">
+            <img src="https://images.squarespace-cdn.com/content/v1/5d875ec6f4f6d6779d29c5d5/37cb7993-148d-4290-912d-9691a01c1b26/image-asset.jpeg" alt="">
+          </div>
+          <h2 class="card-body" style="text-align: center;">Women Equality</h2>
+                <p>A woman’s quest for equality with man is a universal phenomenon. What exists for men is demanded by women. Almost 50% of the world’s population is women, so treating them equally gives an impetus to the development of the society as a whole.<span id="blog-data-1">...</span><span
+                    id="blog-more-data-1" style=" display: none;">The man of the house is traditionally considered to be the breadwinner of the family and the woman is considered to be the homemaker. Tradition and culture are considered to be the two big impediments for women empowerment.Women Empowerment is understood as a very narrow term in today’s world. It may be understood as enabling people, especially women to acquire and possess power resources in order to make decisions on their own or resist decisions made by others that affect them. A person may be said to be powerful when she/he has control over a large portion of power resources such as personal wealth, education, information, knowledge, social status, position, leadership, capabilities of mobilisation. The National Policy on Education (1986) suggested certain strategies to empower women. Accordingly, women became empowered through collective reflections and decision making.</span></p>
+
+                <button onclick="readmore(this.id,'blog-data-1','blog-more-data-1')" id="blog1">Read more</button>
+
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img src="https://indiacsr.in/wp-content/uploads/2019/07/4e21cb06-4c74-47df-ba2f-bc4f96b07544.jpg" alt="">
+          </div>
+          <h2 class="card-body" style="text-align: center;">Menstrual Hygiene</h2>
+                <p>Due to women's reproductive structure special features, it makes the female reproductive system particularly vulnerable to the virus, especially during menstruation,<span id="blog-data-2">...</span><span
+                    id="blog-more-data-2" style=" display: none;"> leading to the immunity drop of reproductive organs , more fragile than usual, make it very vulnerable to bacterial infections and develop all kinds of disease , therefore, women in the menstrual period must pay attention to the health and scientific method of using  sanitary napkins, to ensure that health.
+                    Using sanitary napkins needs to  pay attention to the points below:
+
+    1. The sanitary napkin is best used when you use it .
+
+    The sanitary napkin is best to be purchased every month, and can be stored in a small cloth bag that can be put in one cotton, which should be kept in a special place when being carried outdoors.2. Internal adjustment can be completely relaxed.
+
+    Listen to more soothing music during the menstrual period  and do some gentle sports or sports.
+
+    On the diet, eat less high-fat, high-fat foods, eat more tomatoes, watermelon, cucumbers, beans, vegetables and other light foods.
+
+    In a good mood, reasonable dietary structure can increase the resistance of the body to foreign bacteria and toxins, and reduce transmission and seizure.
+
+    3. Wash hands before using the sanitary napkins so as not to contaminate the sanitary napkin with the germs;
+
+    Sanitary napkins and pads and tampons should be changed in about two hours, even if the amount is small.
+
+    In addition,Mainly use shower during  the period ,avoid to use bath, also should reduce the number of times that wash bath in public place.
+
+   </span></p>
+
+                <button onclick="readmore(this.id,'blog-data-2','blog-more-data-2')" id="blog2">Read more</button>
+
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img src="https://prospect.org/downloads/7083/download/ap_18250574133916.jpg.jpe?cb=0bbb1c8e0153fe817cd2a8a67acc21e8&w=1200" alt="">
+          </div>
+          
+          <h1 class="card-body" style="text-align: center;">#MeToo Movement</h1>
+                <p>is an effort to effect social change, organized primarily through social media, where it’s often expressed as #MeToo. Originally founded in 2006, it became prominent both online and in the mainstream in late 2017, when several high-profile actresses opened up about their experiences with sexual harassment in the film industry.<span id="blog-data-3">...</span><span
+                    id="blog-more-data-3" style=" display: none;">Me Too movement founder: Tarana Burke
+                    During the early years, Tarana Burke, an American social activist, began to use the phrase “me too” on the social networking platform Myspace to highlight the occurrence of sexual harassment, particularly as it targeted women of color.
+                    
+                    Burke argues that the Me Too movement works on empowerment through empathy by showing the world just how common sexual harassment is and by telling survivors that they aren’t alone — and are supported.</span></p>
+
+        <button onclick="readmore(this.id,'blog-data-3','blog-more-data-3')" id="blog3">Read more</button>
+
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img src="https://thumbs.dreamstime.com/z/activist-protesting-women-empowerment-group-females-protesters-marching-road-signboard-women-woman-holding-119346117.jpg" alt="">
+          </div>
+          <h1 class="card-body" style="text-align: center;">#MeToo Movement</h1>
+                <p>is an effort to effect social change, organized primarily through social media, where it’s often expressed as #MeToo. Originally founded in 2006, it became prominent both online and in the mainstream in late 2017, when several high-profile actresses opened up about their experiences with sexual harassment in the film industry.<span id="blog-data-3">...</span><span
+                    id="blog-more-data-4" style=" display: none;">Me Too movement founder: Tarana Burke
+                    During the early years, Tarana Burke, an American social activist, began to use the phrase “me too” on the social networking platform Myspace to highlight the occurrence of sexual harassment, particularly as it targeted women of color.
+                    
+                    Burke argues that the Me Too movement works on empowerment through empathy by showing the world just how common sexual harassment is and by telling survivors that they aren’t alone — and are supported.</span></p>
+
+        <button onclick="readmore(this.id,'blog-data-4','blog-more-data-4')" id="blog4">Read more</button>
+
+          
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img src="https://thumbs.dreamstime.com/b/group-protesters-enjoying-women-s-march-signboards-laughing-holding-protest-signs-female-future-120070115.jpg" alt="">
+          </div>
+          <h1>Next Blog</h1>
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img src="https://thumbs.dreamstime.com/b/group-protesters-enjoying-women-s-march-signboards-laughing-holding-protest-signs-female-future-120070115.jpg" alt="">
+          </div>
+          <h1>Next Blog</h1>
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img src="https://images.pexels.com/photos/8474428/pexels-photo-8474428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          </div>
+          <h4>Next Blog</h4>
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img src="https://images.pexels.com/photos/8474428/pexels-photo-8474428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          </div>
+          <h4>Next Blog</h4>
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img src="https://images.pexels.com/photos/8474428/pexels-photo-8474428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          </div>
+          <h4>Next Blog</h4>
+        </div>
+      </div>
+      
+      <div class="load-more-btn text-center" style="padding-left: 50%;">
+        <button class="btn btn-success " id="load-more-btn" align-content="center">Load More</button>
+      </div>
+      <br>
+      <br>
+      
+      <br>
+      <h2 id="title" style="text-align: center;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Add your own Blog</h2>
+<p id="description">
+  
+</p>
+<div style="align-items:center">
+<form id="survey-form" action="https://formspree.io/f/mvonkwoy"
+method="POST" >
+  <label id="name-label" for="name">Name*</label>
+  <input type="text" name="name" id="name" placeholder="Please enter your first and last name" required />
+  <label id="email-label" for="email">Email*</label>
+  <input type="email" name="email" id="email" placeholder="Please enter your email address" required />
+  <label>Enter Phone number</label>
+  <input type="tel" name="num" id="num" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+  
+  <!--<label id="number-label" for="number">Phone number</label>
+  <input type="number" name="experience" id="number" placeholder="1234-567-890" required/>-->
+  <label id="dropdown-label" for="dropdown">Gender*</label>
+  <select name="situation" id="dropdown" required>
+    <option disabled selected value>Female</option>
+    <option value="male">Male</option>
+    <option value="transgender">Transgender</option>
+    <option value="abstention">Prefer not to say</option>
+  </select>
+  <!--<fieldset>
+    <legend>Have you fallen in love with coding?*</legend>
+    <label>
+      <input type="radio" name="coding-love" value="absolutely" checked />
+      Absolutely
+    </label>
+    <label>
+      <input type="radio" name="coding-love" value="yes" />
+      Yes
+    </label>
+    <label>
+      <input type="radio" name="coding-love" value="no" />
+      Not really
+    </label>
+  </fieldset>
+  <fieldset>
+    <legend>What technologies are you looking forward to?</legend>
+    <label>
+      <input type="checkbox" name="technologies" value="frontend" />
+      Frontend (HTML, CSS, JS, ...)
+    </label>
+    <label>
+      <input type="checkbox" name="technologies" value="backend" />
+      Backend (PHP, Python, MySQL, ...)
+    </label>
+    <label>
+      <input type="checkbox" name="technologies" value="server" />
+      Server (DNS, Apache, Oracle, ...)
+    </label>
+    <label>
+      <input type="checkbox" name="technologies" value="source" />
+      Source Control (Git, GitHub, Bitbucket, ...)
+    </label>
+  </fieldset>-->
+  <label for="comments">Write your blog here :)</label>
+  <textarea name="comment" id="comments" placeholder="Please write your blog/ story here"></textarea>
+  <p><small>The fields marked with an asterisk (*) must be filled out.</small></p>
+  <button type="submit" id="submit">Submit the form</button>
+</form>
+<!--<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+    Host : "smtp.gmail.com",
+    Username : "liza12d.24rosary@gmail.com",
+    Password : "password",
+    To : 'rathorliza02@gmail.com',
+    From : document.getElementById('email').value,
+    Subject : "This is the subject",
+    Body : "Name: " + document.getElementById('name-label').value
+    +"<br> Email: " + document.getElementById('email-label').value
+    +"<br> Email: " + document.getElementById('number-label').value
+    +"<br> Email: " + document.getElementById('dropdown-label').value
+    +"<br> Email: " + document.getElementById('comments').value
+}).then(
+  message => alert(message)
+);
+    }
+</script>--></div>
+</body>
+
+</html>
+<script src="./blog.js"></script>

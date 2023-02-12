@@ -8,14 +8,23 @@
 /*footer*/
 
 .footer{
-  background-image: url(./images/bg.jpeg);
-    padding: 2rem 0rem;
+  background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTQWQFjxbHCpC4VJfFo7-VsMfoouzfR-AB5Nt5GVHbzfKsjAKog);
+    padding: 10px 2rem 0rem;
+    margin: 30px;   
+    height: 14cm;
+    width:30cm;
+    background-position:center;
+    background-size: 50%;
+    background-repeat: no-repeat; ;
+    align-items: center;
+    align-content: center;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem ;
     margin-left: 10px; 
     margin-right: 10px;
-}
+    margin-bottom: 10px;
+} 
 
 .footer .link{
     color: white;
@@ -241,4 +250,3 @@ color: black !important;
 40%{
     width: 50ch;
 }}
-
